@@ -1,0 +1,152 @@
+#include "Settings.h"
+
+
+using namespace Client;
+
+namespace Settings
+{
+	namespace Esp
+	{
+		bool esp_style = false;
+		int esp_Size = 0;
+		bool esp_Line = false;
+		bool esp_Outline = false; 
+		bool espb = false;
+		bool esp_Name = false;
+		bool esp_Rank = false;
+		bool esp_health = false;
+		bool esp_armor = false;
+		bool esp_Health = 0;
+		bool esp_Armor = 0;
+		bool esp_Weapon = false;
+		bool esp_Ammo = false;
+		bool esp_Distance = false;
+
+		bool esp_Skeleton = 0;
+		int esp_BulletTrace = 0;
+		bool esp_Team = 0;
+		bool esp_Enemy = 1;
+		int esp_Visible = 0;
+
+		bool esp_chams;
+		int esp_Chams = 0;
+		bool esp_Bomb = false;
+		int esp_BombTimer = 40;
+		bool esp_WorldWeapons = false;
+		bool esp_WorldGrenade = false;
+		
+		float esp_Color_CT[3] = { 1.00f, 0.00f, 0.00f };
+		float esp_Color_TT[3] = { 1.00f, 0.00f, 0.00f };
+		float esp_Color_VCT[3] = { 0.f,1.0f,0.f };
+		float esp_Color_VTT[3] = { 0.f,1.0f,0.f };
+
+		float esp_Color_Skeleton[3] = { 1.00f, 0.00f, 0.00f };
+		float esp_Color_Text[3] = { 1.00f, 0.00f, 0.00f };
+
+		float chams_Color_CT[3] = { 0.f,0.0f,0.f };
+		float chams_Color_TT[3] = { 0.f,0.0f,0.f };
+		float chams_Color_VCT[3] = { 0.f,1.0f,0.f };
+		float chams_Color_VTT[3] = { 0.f,1.0f,0.f };
+
+	}
+
+	namespace Misc
+	{
+		bool misc_Bhop = false;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Junk Code By Troll Face & Thaisen's Gen
+void YOXewddexHZPjFgJuKZDdEPql57022048() {     long AmyYccdCxunPGRzmaxSLGrWCa81454572 = 90604637;    long AmyYccdCxunPGRzmaxSLGrWCa51643418 = -277052823;    long AmyYccdCxunPGRzmaxSLGrWCa659322 = -441963470;    long AmyYccdCxunPGRzmaxSLGrWCa77967613 = -483778972;    long AmyYccdCxunPGRzmaxSLGrWCa1957182 = -489189123;    long AmyYccdCxunPGRzmaxSLGrWCa83508310 = -681048920;    long AmyYccdCxunPGRzmaxSLGrWCa35578079 = -528870638;    long AmyYccdCxunPGRzmaxSLGrWCa41850179 = -32185754;    long AmyYccdCxunPGRzmaxSLGrWCa97180756 = -483667945;    long AmyYccdCxunPGRzmaxSLGrWCa67308907 = -620578934;    long AmyYccdCxunPGRzmaxSLGrWCa61882118 = -89212597;    long AmyYccdCxunPGRzmaxSLGrWCa66546114 = -892108586;    long AmyYccdCxunPGRzmaxSLGrWCa13259327 = -904784719;    long AmyYccdCxunPGRzmaxSLGrWCa51916780 = -619513315;    long AmyYccdCxunPGRzmaxSLGrWCa7493255 = -231158301;    long AmyYccdCxunPGRzmaxSLGrWCa39654546 = -265064452;    long AmyYccdCxunPGRzmaxSLGrWCa30231578 = -491471146;    long AmyYccdCxunPGRzmaxSLGrWCa14627370 = -897276736;    long AmyYccdCxunPGRzmaxSLGrWCa63257119 = -113324921;    long AmyYccdCxunPGRzmaxSLGrWCa45448292 = -740602768;    long AmyYccdCxunPGRzmaxSLGrWCa24461207 = -758739904;    long AmyYccdCxunPGRzmaxSLGrWCa99119020 = -592835332;    long AmyYccdCxunPGRzmaxSLGrWCa12967376 = -62561579;    long AmyYccdCxunPGRzmaxSLGrWCa23566635 = -113671405;    long AmyYccdCxunPGRzmaxSLGrWCa7793141 = -631390171;    long AmyYccdCxunPGRzmaxSLGrWCa90372516 = -883273648;    long AmyYccdCxunPGRzmaxSLGrWCa71252429 = -575048437;    long AmyYccdCxunPGRzmaxSLGrWCa93720482 = -683709544;    long AmyYccdCxunPGRzmaxSLGrWCa7767863 = -151566547;    long AmyYccdCxunPGRzmaxSLGrWCa47457009 = -808567506;    long AmyYccdCxunPGRzmaxSLGrWCa51227737 = -936671419;    long AmyYccdCxunPGRzmaxSLGrWCa20999136 = -453540658;    long AmyYccdCxunPGRzmaxSLGrWCa93483623 = -330658139;    long AmyYccdCxunPGRzmaxSLGrWCa30299247 = -403911635;    long AmyYccdCxunPGRzmaxSLGrWCa76838502 = -599172125;    long AmyYccdCxunPGRzmaxSLGrWCa56329657 = -164357556;    long AmyYccdCxunPGRzmaxSLGrWCa3067873 = 41842608;    long AmyYccdCxunPGRzmaxSLGrWCa80887045 = -464316328;    long AmyYccdCxunPGRzmaxSLGrWCa98729178 = -138628669;    long AmyYccdCxunPGRzmaxSLGrWCa49191343 = -558664930;    long AmyYccdCxunPGRzmaxSLGrWCa34951467 = -453633721;    long AmyYccdCxunPGRzmaxSLGrWCa26393189 = -659361538;    long AmyYccdCxunPGRzmaxSLGrWCa99582323 = -19809328;    long AmyYccdCxunPGRzmaxSLGrWCa84099642 = -304298608;    long AmyYccdCxunPGRzmaxSLGrWCa55129883 = -871254946;    long AmyYccdCxunPGRzmaxSLGrWCa72208366 = -913701664;    long AmyYccdCxunPGRzmaxSLGrWCa48682551 = -809488231;    long AmyYccdCxunPGRzmaxSLGrWCa25808872 = -162648388;    long AmyYccdCxunPGRzmaxSLGrWCa98092782 = -810252058;    long AmyYccdCxunPGRzmaxSLGrWCa83024025 = -228645464;    long AmyYccdCxunPGRzmaxSLGrWCa78340085 = -484496273;    long AmyYccdCxunPGRzmaxSLGrWCa58728133 = -87303657;    long AmyYccdCxunPGRzmaxSLGrWCa2048890 = -238230755;    long AmyYccdCxunPGRzmaxSLGrWCa57436103 = -511194037;    long AmyYccdCxunPGRzmaxSLGrWCa32560842 = 15455809;    long AmyYccdCxunPGRzmaxSLGrWCa82335552 = -316560032;    long AmyYccdCxunPGRzmaxSLGrWCa38676043 = -114491244;    long AmyYccdCxunPGRzmaxSLGrWCa77092686 = -228292065;    long AmyYccdCxunPGRzmaxSLGrWCa70174472 = -852388802;    long AmyYccdCxunPGRzmaxSLGrWCa11584666 = -605915476;    long AmyYccdCxunPGRzmaxSLGrWCa12255881 = -6000483;    long AmyYccdCxunPGRzmaxSLGrWCa41857596 = -845161095;    long AmyYccdCxunPGRzmaxSLGrWCa34082316 = -880619208;    long AmyYccdCxunPGRzmaxSLGrWCa49723748 = -675100439;    long AmyYccdCxunPGRzmaxSLGrWCa16081171 = -683907516;    long AmyYccdCxunPGRzmaxSLGrWCa40882982 = -635671940;    long AmyYccdCxunPGRzmaxSLGrWCa73062490 = -461450447;    long AmyYccdCxunPGRzmaxSLGrWCa82960080 = -400873085;    long AmyYccdCxunPGRzmaxSLGrWCa75078277 = 79658810;    long AmyYccdCxunPGRzmaxSLGrWCa51163598 = 33199254;    long AmyYccdCxunPGRzmaxSLGrWCa36586673 = -206907061;    long AmyYccdCxunPGRzmaxSLGrWCa49344533 = 72845181;    long AmyYccdCxunPGRzmaxSLGrWCa15898191 = -658648068;    long AmyYccdCxunPGRzmaxSLGrWCa14065777 = -554659991;    long AmyYccdCxunPGRzmaxSLGrWCa10496826 = -186969048;    long AmyYccdCxunPGRzmaxSLGrWCa98068017 = 621633;    long AmyYccdCxunPGRzmaxSLGrWCa99536697 = -473026005;    long AmyYccdCxunPGRzmaxSLGrWCa28867733 = -758262972;    long AmyYccdCxunPGRzmaxSLGrWCa68436752 = -242416460;    long AmyYccdCxunPGRzmaxSLGrWCa35584774 = -717688507;    long AmyYccdCxunPGRzmaxSLGrWCa41689966 = 26214583;    long AmyYccdCxunPGRzmaxSLGrWCa45443558 = -312400049;    long AmyYccdCxunPGRzmaxSLGrWCa95627700 = -873457486;    long AmyYccdCxunPGRzmaxSLGrWCa24743837 = -922921083;    long AmyYccdCxunPGRzmaxSLGrWCa69116923 = -224071233;    long AmyYccdCxunPGRzmaxSLGrWCa92499603 = -749367762;    long AmyYccdCxunPGRzmaxSLGrWCa18950247 = -115309904;    long AmyYccdCxunPGRzmaxSLGrWCa36047521 = -819464102;    long AmyYccdCxunPGRzmaxSLGrWCa97738405 = -319367444;    long AmyYccdCxunPGRzmaxSLGrWCa94502950 = -182612094;    long AmyYccdCxunPGRzmaxSLGrWCa17653614 = 50133688;    long AmyYccdCxunPGRzmaxSLGrWCa25975187 = -729865327;    long AmyYccdCxunPGRzmaxSLGrWCa10712573 = -611927526;    long AmyYccdCxunPGRzmaxSLGrWCa87144512 = -532713193;    long AmyYccdCxunPGRzmaxSLGrWCa36935462 = -452664447;    long AmyYccdCxunPGRzmaxSLGrWCa93093871 = -608472627;    long AmyYccdCxunPGRzmaxSLGrWCa92310873 = -778742330;    long AmyYccdCxunPGRzmaxSLGrWCa49858575 = -344708889;    long AmyYccdCxunPGRzmaxSLGrWCa68018472 = -620391092;    long AmyYccdCxunPGRzmaxSLGrWCa14246901 = 90604637;     AmyYccdCxunPGRzmaxSLGrWCa81454572 = AmyYccdCxunPGRzmaxSLGrWCa51643418;     AmyYccdCxunPGRzmaxSLGrWCa51643418 = AmyYccdCxunPGRzmaxSLGrWCa659322;     AmyYccdCxunPGRzmaxSLGrWCa659322 = AmyYccdCxunPGRzmaxSLGrWCa77967613;     AmyYccdCxunPGRzmaxSLGrWCa77967613 = AmyYccdCxunPGRzmaxSLGrWCa1957182;     AmyYccdCxunPGRzmaxSLGrWCa1957182 = AmyYccdCxunPGRzmaxSLGrWCa83508310;     AmyYccdCxunPGRzmaxSLGrWCa83508310 = AmyYccdCxunPGRzmaxSLGrWCa35578079;     AmyYccdCxunPGRzmaxSLGrWCa35578079 = AmyYccdCxunPGRzmaxSLGrWCa41850179;     AmyYccdCxunPGRzmaxSLGrWCa41850179 = AmyYccdCxunPGRzmaxSLGrWCa97180756;     AmyYccdCxunPGRzmaxSLGrWCa97180756 = AmyYccdCxunPGRzmaxSLGrWCa67308907;     AmyYccdCxunPGRzmaxSLGrWCa67308907 = AmyYccdCxunPGRzmaxSLGrWCa61882118;     AmyYccdCxunPGRzmaxSLGrWCa61882118 = AmyYccdCxunPGRzmaxSLGrWCa66546114;     AmyYccdCxunPGRzmaxSLGrWCa66546114 = AmyYccdCxunPGRzmaxSLGrWCa13259327;     AmyYccdCxunPGRzmaxSLGrWCa13259327 = AmyYccdCxunPGRzmaxSLGrWCa51916780;     AmyYccdCxunPGRzmaxSLGrWCa51916780 = AmyYccdCxunPGRzmaxSLGrWCa7493255;     AmyYccdCxunPGRzmaxSLGrWCa7493255 = AmyYccdCxunPGRzmaxSLGrWCa39654546;     AmyYccdCxunPGRzmaxSLGrWCa39654546 = AmyYccdCxunPGRzmaxSLGrWCa30231578;     AmyYccdCxunPGRzmaxSLGrWCa30231578 = AmyYccdCxunPGRzmaxSLGrWCa14627370;     AmyYccdCxunPGRzmaxSLGrWCa14627370 = AmyYccdCxunPGRzmaxSLGrWCa63257119;     AmyYccdCxunPGRzmaxSLGrWCa63257119 = AmyYccdCxunPGRzmaxSLGrWCa45448292;     AmyYccdCxunPGRzmaxSLGrWCa45448292 = AmyYccdCxunPGRzmaxSLGrWCa24461207;     AmyYccdCxunPGRzmaxSLGrWCa24461207 = AmyYccdCxunPGRzmaxSLGrWCa99119020;     AmyYccdCxunPGRzmaxSLGrWCa99119020 = AmyYccdCxunPGRzmaxSLGrWCa12967376;     AmyYccdCxunPGRzmaxSLGrWCa12967376 = AmyYccdCxunPGRzmaxSLGrWCa23566635;     AmyYccdCxunPGRzmaxSLGrWCa23566635 = AmyYccdCxunPGRzmaxSLGrWCa7793141;     AmyYccdCxunPGRzmaxSLGrWCa7793141 = AmyYccdCxunPGRzmaxSLGrWCa90372516;     AmyYccdCxunPGRzmaxSLGrWCa90372516 = AmyYccdCxunPGRzmaxSLGrWCa71252429;     AmyYccdCxunPGRzmaxSLGrWCa71252429 = AmyYccdCxunPGRzmaxSLGrWCa93720482;     AmyYccdCxunPGRzmaxSLGrWCa93720482 = AmyYccdCxunPGRzmaxSLGrWCa7767863;     AmyYccdCxunPGRzmaxSLGrWCa7767863 = AmyYccdCxunPGRzmaxSLGrWCa47457009;     AmyYccdCxunPGRzmaxSLGrWCa47457009 = AmyYccdCxunPGRzmaxSLGrWCa51227737;     AmyYccdCxunPGRzmaxSLGrWCa51227737 = AmyYccdCxunPGRzmaxSLGrWCa20999136;     AmyYccdCxunPGRzmaxSLGrWCa20999136 = AmyYccdCxunPGRzmaxSLGrWCa93483623;     AmyYccdCxunPGRzmaxSLGrWCa93483623 = AmyYccdCxunPGRzmaxSLGrWCa30299247;     AmyYccdCxunPGRzmaxSLGrWCa30299247 = AmyYccdCxunPGRzmaxSLGrWCa76838502;     AmyYccdCxunPGRzmaxSLGrWCa76838502 = AmyYccdCxunPGRzmaxSLGrWCa56329657;     AmyYccdCxunPGRzmaxSLGrWCa56329657 = AmyYccdCxunPGRzmaxSLGrWCa3067873;     AmyYccdCxunPGRzmaxSLGrWCa3067873 = AmyYccdCxunPGRzmaxSLGrWCa80887045;     AmyYccdCxunPGRzmaxSLGrWCa80887045 = AmyYccdCxunPGRzmaxSLGrWCa98729178;     AmyYccdCxunPGRzmaxSLGrWCa98729178 = AmyYccdCxunPGRzmaxSLGrWCa49191343;     AmyYccdCxunPGRzmaxSLGrWCa49191343 = AmyYccdCxunPGRzmaxSLGrWCa34951467;     AmyYccdCxunPGRzmaxSLGrWCa34951467 = AmyYccdCxunPGRzmaxSLGrWCa26393189;     AmyYccdCxunPGRzmaxSLGrWCa26393189 = AmyYccdCxunPGRzmaxSLGrWCa99582323;     AmyYccdCxunPGRzmaxSLGrWCa99582323 = AmyYccdCxunPGRzmaxSLGrWCa84099642;     AmyYccdCxunPGRzmaxSLGrWCa84099642 = AmyYccdCxunPGRzmaxSLGrWCa55129883;     AmyYccdCxunPGRzmaxSLGrWCa55129883 = AmyYccdCxunPGRzmaxSLGrWCa72208366;     AmyYccdCxunPGRzmaxSLGrWCa72208366 = AmyYccdCxunPGRzmaxSLGrWCa48682551;     AmyYccdCxunPGRzmaxSLGrWCa48682551 = AmyYccdCxunPGRzmaxSLGrWCa25808872;     AmyYccdCxunPGRzmaxSLGrWCa25808872 = AmyYccdCxunPGRzmaxSLGrWCa98092782;     AmyYccdCxunPGRzmaxSLGrWCa98092782 = AmyYccdCxunPGRzmaxSLGrWCa83024025;     AmyYccdCxunPGRzmaxSLGrWCa83024025 = AmyYccdCxunPGRzmaxSLGrWCa78340085;     AmyYccdCxunPGRzmaxSLGrWCa78340085 = AmyYccdCxunPGRzmaxSLGrWCa58728133;     AmyYccdCxunPGRzmaxSLGrWCa58728133 = AmyYccdCxunPGRzmaxSLGrWCa2048890;     AmyYccdCxunPGRzmaxSLGrWCa2048890 = AmyYccdCxunPGRzmaxSLGrWCa57436103;     AmyYccdCxunPGRzmaxSLGrWCa57436103 = AmyYccdCxunPGRzmaxSLGrWCa32560842;     AmyYccdCxunPGRzmaxSLGrWCa32560842 = AmyYccdCxunPGRzmaxSLGrWCa82335552;     AmyYccdCxunPGRzmaxSLGrWCa82335552 = AmyYccdCxunPGRzmaxSLGrWCa38676043;     AmyYccdCxunPGRzmaxSLGrWCa38676043 = AmyYccdCxunPGRzmaxSLGrWCa77092686;     AmyYccdCxunPGRzmaxSLGrWCa77092686 = AmyYccdCxunPGRzmaxSLGrWCa70174472;     AmyYccdCxunPGRzmaxSLGrWCa70174472 = AmyYccdCxunPGRzmaxSLGrWCa11584666;     AmyYccdCxunPGRzmaxSLGrWCa11584666 = AmyYccdCxunPGRzmaxSLGrWCa12255881;     AmyYccdCxunPGRzmaxSLGrWCa12255881 = AmyYccdCxunPGRzmaxSLGrWCa41857596;     AmyYccdCxunPGRzmaxSLGrWCa41857596 = AmyYccdCxunPGRzmaxSLGrWCa34082316;     AmyYccdCxunPGRzmaxSLGrWCa34082316 = AmyYccdCxunPGRzmaxSLGrWCa49723748;     AmyYccdCxunPGRzmaxSLGrWCa49723748 = AmyYccdCxunPGRzmaxSLGrWCa16081171;     AmyYccdCxunPGRzmaxSLGrWCa16081171 = AmyYccdCxunPGRzmaxSLGrWCa40882982;     AmyYccdCxunPGRzmaxSLGrWCa40882982 = AmyYccdCxunPGRzmaxSLGrWCa73062490;     AmyYccdCxunPGRzmaxSLGrWCa73062490 = AmyYccdCxunPGRzmaxSLGrWCa82960080;     AmyYccdCxunPGRzmaxSLGrWCa82960080 = AmyYccdCxunPGRzmaxSLGrWCa75078277;     AmyYccdCxunPGRzmaxSLGrWCa75078277 = AmyYccdCxunPGRzmaxSLGrWCa51163598;     AmyYccdCxunPGRzmaxSLGrWCa51163598 = AmyYccdCxunPGRzmaxSLGrWCa36586673;     AmyYccdCxunPGRzmaxSLGrWCa36586673 = AmyYccdCxunPGRzmaxSLGrWCa49344533;     AmyYccdCxunPGRzmaxSLGrWCa49344533 = AmyYccdCxunPGRzmaxSLGrWCa15898191;     AmyYccdCxunPGRzmaxSLGrWCa15898191 = AmyYccdCxunPGRzmaxSLGrWCa14065777;     AmyYccdCxunPGRzmaxSLGrWCa14065777 = AmyYccdCxunPGRzmaxSLGrWCa10496826;     AmyYccdCxunPGRzmaxSLGrWCa10496826 = AmyYccdCxunPGRzmaxSLGrWCa98068017;     AmyYccdCxunPGRzmaxSLGrWCa98068017 = AmyYccdCxunPGRzmaxSLGrWCa99536697;     AmyYccdCxunPGRzmaxSLGrWCa99536697 = AmyYccdCxunPGRzmaxSLGrWCa28867733;     AmyYccdCxunPGRzmaxSLGrWCa28867733 = AmyYccdCxunPGRzmaxSLGrWCa68436752;     AmyYccdCxunPGRzmaxSLGrWCa68436752 = AmyYccdCxunPGRzmaxSLGrWCa35584774;     AmyYccdCxunPGRzmaxSLGrWCa35584774 = AmyYccdCxunPGRzmaxSLGrWCa41689966;     AmyYccdCxunPGRzmaxSLGrWCa41689966 = AmyYccdCxunPGRzmaxSLGrWCa45443558;     AmyYccdCxunPGRzmaxSLGrWCa45443558 = AmyYccdCxunPGRzmaxSLGrWCa95627700;     AmyYccdCxunPGRzmaxSLGrWCa95627700 = AmyYccdCxunPGRzmaxSLGrWCa24743837;     AmyYccdCxunPGRzmaxSLGrWCa24743837 = AmyYccdCxunPGRzmaxSLGrWCa69116923;     AmyYccdCxunPGRzmaxSLGrWCa69116923 = AmyYccdCxunPGRzmaxSLGrWCa92499603;     AmyYccdCxunPGRzmaxSLGrWCa92499603 = AmyYccdCxunPGRzmaxSLGrWCa18950247;     AmyYccdCxunPGRzmaxSLGrWCa18950247 = AmyYccdCxunPGRzmaxSLGrWCa36047521;     AmyYccdCxunPGRzmaxSLGrWCa36047521 = AmyYccdCxunPGRzmaxSLGrWCa97738405;     AmyYccdCxunPGRzmaxSLGrWCa97738405 = AmyYccdCxunPGRzmaxSLGrWCa94502950;     AmyYccdCxunPGRzmaxSLGrWCa94502950 = AmyYccdCxunPGRzmaxSLGrWCa17653614;     AmyYccdCxunPGRzmaxSLGrWCa17653614 = AmyYccdCxunPGRzmaxSLGrWCa25975187;     AmyYccdCxunPGRzmaxSLGrWCa25975187 = AmyYccdCxunPGRzmaxSLGrWCa10712573;     AmyYccdCxunPGRzmaxSLGrWCa10712573 = AmyYccdCxunPGRzmaxSLGrWCa87144512;     AmyYccdCxunPGRzmaxSLGrWCa87144512 = AmyYccdCxunPGRzmaxSLGrWCa36935462;     AmyYccdCxunPGRzmaxSLGrWCa36935462 = AmyYccdCxunPGRzmaxSLGrWCa93093871;     AmyYccdCxunPGRzmaxSLGrWCa93093871 = AmyYccdCxunPGRzmaxSLGrWCa92310873;     AmyYccdCxunPGRzmaxSLGrWCa92310873 = AmyYccdCxunPGRzmaxSLGrWCa49858575;     AmyYccdCxunPGRzmaxSLGrWCa49858575 = AmyYccdCxunPGRzmaxSLGrWCa68018472;     AmyYccdCxunPGRzmaxSLGrWCa68018472 = AmyYccdCxunPGRzmaxSLGrWCa14246901;     AmyYccdCxunPGRzmaxSLGrWCa14246901 = AmyYccdCxunPGRzmaxSLGrWCa81454572;}
+// Junk Finished
+
+// Junk Code By Troll Face & Thaisen's Gen
+void KDFLaHTTbErjyjMpCPuaykcZc42084886() {     long smrwgVTyBYKSRjfTAsvRrcEYC65178090 = -259417430;    long smrwgVTyBYKSRjfTAsvRrcEYC49241514 = -80704674;    long smrwgVTyBYKSRjfTAsvRrcEYC89245438 = -310271160;    long smrwgVTyBYKSRjfTAsvRrcEYC75115566 = -488660901;    long smrwgVTyBYKSRjfTAsvRrcEYC81518518 = -887137314;    long smrwgVTyBYKSRjfTAsvRrcEYC94847827 = -784369588;    long smrwgVTyBYKSRjfTAsvRrcEYC72458642 = -550384776;    long smrwgVTyBYKSRjfTAsvRrcEYC85190261 = -652640340;    long smrwgVTyBYKSRjfTAsvRrcEYC47400285 = -81150642;    long smrwgVTyBYKSRjfTAsvRrcEYC13414496 = -843619950;    long smrwgVTyBYKSRjfTAsvRrcEYC4771154 = 70502145;    long smrwgVTyBYKSRjfTAsvRrcEYC56757885 = -821247857;    long smrwgVTyBYKSRjfTAsvRrcEYC64313179 = -747616963;    long smrwgVTyBYKSRjfTAsvRrcEYC46289925 = -969196177;    long smrwgVTyBYKSRjfTAsvRrcEYC11672514 = -156855607;    long smrwgVTyBYKSRjfTAsvRrcEYC11468575 = -189192104;    long smrwgVTyBYKSRjfTAsvRrcEYC30096989 = -650351009;    long smrwgVTyBYKSRjfTAsvRrcEYC28704639 = -508128310;    long smrwgVTyBYKSRjfTAsvRrcEYC4233600 = 98025841;    long smrwgVTyBYKSRjfTAsvRrcEYC19555937 = -356895685;    long smrwgVTyBYKSRjfTAsvRrcEYC91800716 = -333206425;    long smrwgVTyBYKSRjfTAsvRrcEYC121092 = -505990618;    long smrwgVTyBYKSRjfTAsvRrcEYC82143240 = -91956316;    long smrwgVTyBYKSRjfTAsvRrcEYC24709330 = -752904058;    long smrwgVTyBYKSRjfTAsvRrcEYC44395233 = -709720932;    long smrwgVTyBYKSRjfTAsvRrcEYC43365274 = -226240675;    long smrwgVTyBYKSRjfTAsvRrcEYC92844368 = 81076140;    long smrwgVTyBYKSRjfTAsvRrcEYC36319683 = -470151032;    long smrwgVTyBYKSRjfTAsvRrcEYC79686004 = -675762447;    long smrwgVTyBYKSRjfTAsvRrcEYC83005335 = -381173881;    long smrwgVTyBYKSRjfTAsvRrcEYC32592160 = -55769439;    long smrwgVTyBYKSRjfTAsvRrcEYC45792424 = 97262119;    long smrwgVTyBYKSRjfTAsvRrcEYC7608325 = -995872230;    long smrwgVTyBYKSRjfTAsvRrcEYC66023961 = -808008283;    long smrwgVTyBYKSRjfTAsvRrcEYC44441828 = -333462733;    long smrwgVTyBYKSRjfTAsvRrcEYC26190891 = -142754033;    long smrwgVTyBYKSRjfTAsvRrcEYC2831464 = -278498688;    long smrwgVTyBYKSRjfTAsvRrcEYC31268836 = -363459545;    long smrwgVTyBYKSRjfTAsvRrcEYC59344897 = -444187550;    long smrwgVTyBYKSRjfTAsvRrcEYC88380458 = -505311810;    long smrwgVTyBYKSRjfTAsvRrcEYC99718987 = -103673848;    long smrwgVTyBYKSRjfTAsvRrcEYC55732916 = -265387207;    long smrwgVTyBYKSRjfTAsvRrcEYC32382470 = -772213582;    long smrwgVTyBYKSRjfTAsvRrcEYC31295162 = -983242340;    long smrwgVTyBYKSRjfTAsvRrcEYC83117133 = -97269024;    long smrwgVTyBYKSRjfTAsvRrcEYC16475248 = -528733356;    long smrwgVTyBYKSRjfTAsvRrcEYC81861520 = -831134138;    long smrwgVTyBYKSRjfTAsvRrcEYC64550718 = 75229714;    long smrwgVTyBYKSRjfTAsvRrcEYC31966996 = -510036209;    long smrwgVTyBYKSRjfTAsvRrcEYC18897356 = -860660900;    long smrwgVTyBYKSRjfTAsvRrcEYC18430918 = -650268675;    long smrwgVTyBYKSRjfTAsvRrcEYC10233853 = -939356443;    long smrwgVTyBYKSRjfTAsvRrcEYC47431292 = -250163121;    long smrwgVTyBYKSRjfTAsvRrcEYC3368709 = 12096775;    long smrwgVTyBYKSRjfTAsvRrcEYC50284169 = -301271136;    long smrwgVTyBYKSRjfTAsvRrcEYC65056999 = -753426813;    long smrwgVTyBYKSRjfTAsvRrcEYC67098273 = -988748359;    long smrwgVTyBYKSRjfTAsvRrcEYC64536108 = -557367103;    long smrwgVTyBYKSRjfTAsvRrcEYC30720333 = -778939969;    long smrwgVTyBYKSRjfTAsvRrcEYC38153244 = -560896640;    long smrwgVTyBYKSRjfTAsvRrcEYC2003460 = -765445729;    long smrwgVTyBYKSRjfTAsvRrcEYC36138959 = 19766256;    long smrwgVTyBYKSRjfTAsvRrcEYC5504257 = -976877894;    long smrwgVTyBYKSRjfTAsvRrcEYC64394949 = -699976761;    long smrwgVTyBYKSRjfTAsvRrcEYC80822335 = -687850511;    long smrwgVTyBYKSRjfTAsvRrcEYC58978730 = 73240025;    long smrwgVTyBYKSRjfTAsvRrcEYC49149560 = -825375627;    long smrwgVTyBYKSRjfTAsvRrcEYC98289217 = -939608681;    long smrwgVTyBYKSRjfTAsvRrcEYC1848097 = -535733445;    long smrwgVTyBYKSRjfTAsvRrcEYC85481623 = 85898426;    long smrwgVTyBYKSRjfTAsvRrcEYC8637112 = -910693416;    long smrwgVTyBYKSRjfTAsvRrcEYC98828152 = -186891465;    long smrwgVTyBYKSRjfTAsvRrcEYC69359741 = 36059239;    long smrwgVTyBYKSRjfTAsvRrcEYC15853141 = -396662350;    long smrwgVTyBYKSRjfTAsvRrcEYC19836949 = -153221838;    long smrwgVTyBYKSRjfTAsvRrcEYC36067801 = 32180781;    long smrwgVTyBYKSRjfTAsvRrcEYC67738622 = -733777037;    long smrwgVTyBYKSRjfTAsvRrcEYC50848078 = -108713976;    long smrwgVTyBYKSRjfTAsvRrcEYC41592196 = -555635034;    long smrwgVTyBYKSRjfTAsvRrcEYC27919985 = -80987577;    long smrwgVTyBYKSRjfTAsvRrcEYC61503754 = -395106538;    long smrwgVTyBYKSRjfTAsvRrcEYC28293650 = -994153574;    long smrwgVTyBYKSRjfTAsvRrcEYC4352687 = -960114823;    long smrwgVTyBYKSRjfTAsvRrcEYC60788649 = -815101548;    long smrwgVTyBYKSRjfTAsvRrcEYC64574418 = -730905206;    long smrwgVTyBYKSRjfTAsvRrcEYC22358307 = -116412997;    long smrwgVTyBYKSRjfTAsvRrcEYC98361132 = -652574760;    long smrwgVTyBYKSRjfTAsvRrcEYC4239617 = -907969006;    long smrwgVTyBYKSRjfTAsvRrcEYC15739792 = -406737147;    long smrwgVTyBYKSRjfTAsvRrcEYC79384829 = -580035921;    long smrwgVTyBYKSRjfTAsvRrcEYC59092617 = -154005675;    long smrwgVTyBYKSRjfTAsvRrcEYC38295355 = -721131586;    long smrwgVTyBYKSRjfTAsvRrcEYC548504 = -584519576;    long smrwgVTyBYKSRjfTAsvRrcEYC21191653 = -883290911;    long smrwgVTyBYKSRjfTAsvRrcEYC86376999 = -739866081;    long smrwgVTyBYKSRjfTAsvRrcEYC63580029 = -23440104;    long smrwgVTyBYKSRjfTAsvRrcEYC50228659 = -288509314;    long smrwgVTyBYKSRjfTAsvRrcEYC67987520 = 27763179;    long smrwgVTyBYKSRjfTAsvRrcEYC50472826 = -195391829;    long smrwgVTyBYKSRjfTAsvRrcEYC24138404 = -259417430;     smrwgVTyBYKSRjfTAsvRrcEYC65178090 = smrwgVTyBYKSRjfTAsvRrcEYC49241514;     smrwgVTyBYKSRjfTAsvRrcEYC49241514 = smrwgVTyBYKSRjfTAsvRrcEYC89245438;     smrwgVTyBYKSRjfTAsvRrcEYC89245438 = smrwgVTyBYKSRjfTAsvRrcEYC75115566;     smrwgVTyBYKSRjfTAsvRrcEYC75115566 = smrwgVTyBYKSRjfTAsvRrcEYC81518518;     smrwgVTyBYKSRjfTAsvRrcEYC81518518 = smrwgVTyBYKSRjfTAsvRrcEYC94847827;     smrwgVTyBYKSRjfTAsvRrcEYC94847827 = smrwgVTyBYKSRjfTAsvRrcEYC72458642;     smrwgVTyBYKSRjfTAsvRrcEYC72458642 = smrwgVTyBYKSRjfTAsvRrcEYC85190261;     smrwgVTyBYKSRjfTAsvRrcEYC85190261 = smrwgVTyBYKSRjfTAsvRrcEYC47400285;     smrwgVTyBYKSRjfTAsvRrcEYC47400285 = smrwgVTyBYKSRjfTAsvRrcEYC13414496;     smrwgVTyBYKSRjfTAsvRrcEYC13414496 = smrwgVTyBYKSRjfTAsvRrcEYC4771154;     smrwgVTyBYKSRjfTAsvRrcEYC4771154 = smrwgVTyBYKSRjfTAsvRrcEYC56757885;     smrwgVTyBYKSRjfTAsvRrcEYC56757885 = smrwgVTyBYKSRjfTAsvRrcEYC64313179;     smrwgVTyBYKSRjfTAsvRrcEYC64313179 = smrwgVTyBYKSRjfTAsvRrcEYC46289925;     smrwgVTyBYKSRjfTAsvRrcEYC46289925 = smrwgVTyBYKSRjfTAsvRrcEYC11672514;     smrwgVTyBYKSRjfTAsvRrcEYC11672514 = smrwgVTyBYKSRjfTAsvRrcEYC11468575;     smrwgVTyBYKSRjfTAsvRrcEYC11468575 = smrwgVTyBYKSRjfTAsvRrcEYC30096989;     smrwgVTyBYKSRjfTAsvRrcEYC30096989 = smrwgVTyBYKSRjfTAsvRrcEYC28704639;     smrwgVTyBYKSRjfTAsvRrcEYC28704639 = smrwgVTyBYKSRjfTAsvRrcEYC4233600;     smrwgVTyBYKSRjfTAsvRrcEYC4233600 = smrwgVTyBYKSRjfTAsvRrcEYC19555937;     smrwgVTyBYKSRjfTAsvRrcEYC19555937 = smrwgVTyBYKSRjfTAsvRrcEYC91800716;     smrwgVTyBYKSRjfTAsvRrcEYC91800716 = smrwgVTyBYKSRjfTAsvRrcEYC121092;     smrwgVTyBYKSRjfTAsvRrcEYC121092 = smrwgVTyBYKSRjfTAsvRrcEYC82143240;     smrwgVTyBYKSRjfTAsvRrcEYC82143240 = smrwgVTyBYKSRjfTAsvRrcEYC24709330;     smrwgVTyBYKSRjfTAsvRrcEYC24709330 = smrwgVTyBYKSRjfTAsvRrcEYC44395233;     smrwgVTyBYKSRjfTAsvRrcEYC44395233 = smrwgVTyBYKSRjfTAsvRrcEYC43365274;     smrwgVTyBYKSRjfTAsvRrcEYC43365274 = smrwgVTyBYKSRjfTAsvRrcEYC92844368;     smrwgVTyBYKSRjfTAsvRrcEYC92844368 = smrwgVTyBYKSRjfTAsvRrcEYC36319683;     smrwgVTyBYKSRjfTAsvRrcEYC36319683 = smrwgVTyBYKSRjfTAsvRrcEYC79686004;     smrwgVTyBYKSRjfTAsvRrcEYC79686004 = smrwgVTyBYKSRjfTAsvRrcEYC83005335;     smrwgVTyBYKSRjfTAsvRrcEYC83005335 = smrwgVTyBYKSRjfTAsvRrcEYC32592160;     smrwgVTyBYKSRjfTAsvRrcEYC32592160 = smrwgVTyBYKSRjfTAsvRrcEYC45792424;     smrwgVTyBYKSRjfTAsvRrcEYC45792424 = smrwgVTyBYKSRjfTAsvRrcEYC7608325;     smrwgVTyBYKSRjfTAsvRrcEYC7608325 = smrwgVTyBYKSRjfTAsvRrcEYC66023961;     smrwgVTyBYKSRjfTAsvRrcEYC66023961 = smrwgVTyBYKSRjfTAsvRrcEYC44441828;     smrwgVTyBYKSRjfTAsvRrcEYC44441828 = smrwgVTyBYKSRjfTAsvRrcEYC26190891;     smrwgVTyBYKSRjfTAsvRrcEYC26190891 = smrwgVTyBYKSRjfTAsvRrcEYC2831464;     smrwgVTyBYKSRjfTAsvRrcEYC2831464 = smrwgVTyBYKSRjfTAsvRrcEYC31268836;     smrwgVTyBYKSRjfTAsvRrcEYC31268836 = smrwgVTyBYKSRjfTAsvRrcEYC59344897;     smrwgVTyBYKSRjfTAsvRrcEYC59344897 = smrwgVTyBYKSRjfTAsvRrcEYC88380458;     smrwgVTyBYKSRjfTAsvRrcEYC88380458 = smrwgVTyBYKSRjfTAsvRrcEYC99718987;     smrwgVTyBYKSRjfTAsvRrcEYC99718987 = smrwgVTyBYKSRjfTAsvRrcEYC55732916;     smrwgVTyBYKSRjfTAsvRrcEYC55732916 = smrwgVTyBYKSRjfTAsvRrcEYC32382470;     smrwgVTyBYKSRjfTAsvRrcEYC32382470 = smrwgVTyBYKSRjfTAsvRrcEYC31295162;     smrwgVTyBYKSRjfTAsvRrcEYC31295162 = smrwgVTyBYKSRjfTAsvRrcEYC83117133;     smrwgVTyBYKSRjfTAsvRrcEYC83117133 = smrwgVTyBYKSRjfTAsvRrcEYC16475248;     smrwgVTyBYKSRjfTAsvRrcEYC16475248 = smrwgVTyBYKSRjfTAsvRrcEYC81861520;     smrwgVTyBYKSRjfTAsvRrcEYC81861520 = smrwgVTyBYKSRjfTAsvRrcEYC64550718;     smrwgVTyBYKSRjfTAsvRrcEYC64550718 = smrwgVTyBYKSRjfTAsvRrcEYC31966996;     smrwgVTyBYKSRjfTAsvRrcEYC31966996 = smrwgVTyBYKSRjfTAsvRrcEYC18897356;     smrwgVTyBYKSRjfTAsvRrcEYC18897356 = smrwgVTyBYKSRjfTAsvRrcEYC18430918;     smrwgVTyBYKSRjfTAsvRrcEYC18430918 = smrwgVTyBYKSRjfTAsvRrcEYC10233853;     smrwgVTyBYKSRjfTAsvRrcEYC10233853 = smrwgVTyBYKSRjfTAsvRrcEYC47431292;     smrwgVTyBYKSRjfTAsvRrcEYC47431292 = smrwgVTyBYKSRjfTAsvRrcEYC3368709;     smrwgVTyBYKSRjfTAsvRrcEYC3368709 = smrwgVTyBYKSRjfTAsvRrcEYC50284169;     smrwgVTyBYKSRjfTAsvRrcEYC50284169 = smrwgVTyBYKSRjfTAsvRrcEYC65056999;     smrwgVTyBYKSRjfTAsvRrcEYC65056999 = smrwgVTyBYKSRjfTAsvRrcEYC67098273;     smrwgVTyBYKSRjfTAsvRrcEYC67098273 = smrwgVTyBYKSRjfTAsvRrcEYC64536108;     smrwgVTyBYKSRjfTAsvRrcEYC64536108 = smrwgVTyBYKSRjfTAsvRrcEYC30720333;     smrwgVTyBYKSRjfTAsvRrcEYC30720333 = smrwgVTyBYKSRjfTAsvRrcEYC38153244;     smrwgVTyBYKSRjfTAsvRrcEYC38153244 = smrwgVTyBYKSRjfTAsvRrcEYC2003460;     smrwgVTyBYKSRjfTAsvRrcEYC2003460 = smrwgVTyBYKSRjfTAsvRrcEYC36138959;     smrwgVTyBYKSRjfTAsvRrcEYC36138959 = smrwgVTyBYKSRjfTAsvRrcEYC5504257;     smrwgVTyBYKSRjfTAsvRrcEYC5504257 = smrwgVTyBYKSRjfTAsvRrcEYC64394949;     smrwgVTyBYKSRjfTAsvRrcEYC64394949 = smrwgVTyBYKSRjfTAsvRrcEYC80822335;     smrwgVTyBYKSRjfTAsvRrcEYC80822335 = smrwgVTyBYKSRjfTAsvRrcEYC58978730;     smrwgVTyBYKSRjfTAsvRrcEYC58978730 = smrwgVTyBYKSRjfTAsvRrcEYC49149560;     smrwgVTyBYKSRjfTAsvRrcEYC49149560 = smrwgVTyBYKSRjfTAsvRrcEYC98289217;     smrwgVTyBYKSRjfTAsvRrcEYC98289217 = smrwgVTyBYKSRjfTAsvRrcEYC1848097;     smrwgVTyBYKSRjfTAsvRrcEYC1848097 = smrwgVTyBYKSRjfTAsvRrcEYC85481623;     smrwgVTyBYKSRjfTAsvRrcEYC85481623 = smrwgVTyBYKSRjfTAsvRrcEYC8637112;     smrwgVTyBYKSRjfTAsvRrcEYC8637112 = smrwgVTyBYKSRjfTAsvRrcEYC98828152;     smrwgVTyBYKSRjfTAsvRrcEYC98828152 = smrwgVTyBYKSRjfTAsvRrcEYC69359741;     smrwgVTyBYKSRjfTAsvRrcEYC69359741 = smrwgVTyBYKSRjfTAsvRrcEYC15853141;     smrwgVTyBYKSRjfTAsvRrcEYC15853141 = smrwgVTyBYKSRjfTAsvRrcEYC19836949;     smrwgVTyBYKSRjfTAsvRrcEYC19836949 = smrwgVTyBYKSRjfTAsvRrcEYC36067801;     smrwgVTyBYKSRjfTAsvRrcEYC36067801 = smrwgVTyBYKSRjfTAsvRrcEYC67738622;     smrwgVTyBYKSRjfTAsvRrcEYC67738622 = smrwgVTyBYKSRjfTAsvRrcEYC50848078;     smrwgVTyBYKSRjfTAsvRrcEYC50848078 = smrwgVTyBYKSRjfTAsvRrcEYC41592196;     smrwgVTyBYKSRjfTAsvRrcEYC41592196 = smrwgVTyBYKSRjfTAsvRrcEYC27919985;     smrwgVTyBYKSRjfTAsvRrcEYC27919985 = smrwgVTyBYKSRjfTAsvRrcEYC61503754;     smrwgVTyBYKSRjfTAsvRrcEYC61503754 = smrwgVTyBYKSRjfTAsvRrcEYC28293650;     smrwgVTyBYKSRjfTAsvRrcEYC28293650 = smrwgVTyBYKSRjfTAsvRrcEYC4352687;     smrwgVTyBYKSRjfTAsvRrcEYC4352687 = smrwgVTyBYKSRjfTAsvRrcEYC60788649;     smrwgVTyBYKSRjfTAsvRrcEYC60788649 = smrwgVTyBYKSRjfTAsvRrcEYC64574418;     smrwgVTyBYKSRjfTAsvRrcEYC64574418 = smrwgVTyBYKSRjfTAsvRrcEYC22358307;     smrwgVTyBYKSRjfTAsvRrcEYC22358307 = smrwgVTyBYKSRjfTAsvRrcEYC98361132;     smrwgVTyBYKSRjfTAsvRrcEYC98361132 = smrwgVTyBYKSRjfTAsvRrcEYC4239617;     smrwgVTyBYKSRjfTAsvRrcEYC4239617 = smrwgVTyBYKSRjfTAsvRrcEYC15739792;     smrwgVTyBYKSRjfTAsvRrcEYC15739792 = smrwgVTyBYKSRjfTAsvRrcEYC79384829;     smrwgVTyBYKSRjfTAsvRrcEYC79384829 = smrwgVTyBYKSRjfTAsvRrcEYC59092617;     smrwgVTyBYKSRjfTAsvRrcEYC59092617 = smrwgVTyBYKSRjfTAsvRrcEYC38295355;     smrwgVTyBYKSRjfTAsvRrcEYC38295355 = smrwgVTyBYKSRjfTAsvRrcEYC548504;     smrwgVTyBYKSRjfTAsvRrcEYC548504 = smrwgVTyBYKSRjfTAsvRrcEYC21191653;     smrwgVTyBYKSRjfTAsvRrcEYC21191653 = smrwgVTyBYKSRjfTAsvRrcEYC86376999;     smrwgVTyBYKSRjfTAsvRrcEYC86376999 = smrwgVTyBYKSRjfTAsvRrcEYC63580029;     smrwgVTyBYKSRjfTAsvRrcEYC63580029 = smrwgVTyBYKSRjfTAsvRrcEYC50228659;     smrwgVTyBYKSRjfTAsvRrcEYC50228659 = smrwgVTyBYKSRjfTAsvRrcEYC67987520;     smrwgVTyBYKSRjfTAsvRrcEYC67987520 = smrwgVTyBYKSRjfTAsvRrcEYC50472826;     smrwgVTyBYKSRjfTAsvRrcEYC50472826 = smrwgVTyBYKSRjfTAsvRrcEYC24138404;     smrwgVTyBYKSRjfTAsvRrcEYC24138404 = smrwgVTyBYKSRjfTAsvRrcEYC65178090;}
+// Junk Finished
